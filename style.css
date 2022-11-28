@@ -131,18 +131,34 @@ header .right > .hidden-parts{
     padding: 30px ;
 }
 
-/******CONSOLE SECTION******/
 
+
+/******CONSOLE SECTION******/
+.console-section{
+    padding: 100px 0;
+}
 .card{
     border: 0;
     
 }
 
+/**********PSPLUS SECTION******/
 
 
+.psplus-section{
+    padding: 100px 0;
+}
+/******SCONTI SECTION******/
 
-
-
+.sconti-section{
+    width: 100%;
+    min-height: 200px;
+    padding: 100px 0;
+}
+.sconti-img{
+    
+    height: 200px;
+}
 
 
 
