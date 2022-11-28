@@ -5,7 +5,9 @@
 .bg-blue{
     background-color:blueviolet;
 }
-
+.bg-green{
+    background-color:rgb(24, 225, 24);
+}
 /********* UTILITIES**********/
 
 .border-d{
@@ -15,7 +17,7 @@
 /***********HEADER***********/
 
 header{
-    min-height: 200px;
+    min-height: 100px;
     position:fixed;
     top: 0;
     right: 0;
@@ -53,4 +55,21 @@ header .right > .hidden-parts{
     width: 200px;
     height: 70px;
 
+}
+
+/*******FISTR JUMBOTRON**********/
+
+.first-jumbotron{
+    width: 100%;
+    min-height: 500x;
+    padding: 120px 0;
+}
+
+.first-jumbotron .container{
+    height: 500px;
+}
+
+.first-jumbotron > .container{
+    height: 500px;
+    padding: 100px 0;
 }
