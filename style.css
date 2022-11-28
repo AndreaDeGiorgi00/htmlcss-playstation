@@ -59,17 +59,17 @@ header .right > .hidden-parts{
 
 /*******FISTR JUMBOTRON**********/
 
-.first-jumbotron{
+.jumbotron{
     width: 100%;
     min-height: 500x;
     padding: 120px 0;
 }
 
-.first-jumbotron .container{
+.jumbotron .container{
     height: 500px;
 }
 
-.first-jumbotron > .container{
+.jumbotron > .container{
     height: 500px;
     padding: 100px 0;
 }
@@ -111,6 +111,31 @@ header .right > .hidden-parts{
     min-height: 40px;
     padding: 50px 30px;
 }
+
+
+/***second-jumboton-section****/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (min-width:992px) {
     /*FIRST CARD SECTION*/
     .first-cards-section img{
