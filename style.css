@@ -88,3 +88,11 @@ header .right > .hidden-parts{
     min-height: 200px;
     padding: 30px ;
 }
+
+
+
+/******TEXT SECTION*******/
+
+.text-section .description{
+    padding: 20px 0;
+}
