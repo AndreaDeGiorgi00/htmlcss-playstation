@@ -113,9 +113,22 @@ header .right > .hidden-parts{
 }
 
 
-/***second-jumboton-section****/
+/***second giochi section****/
 
+.giochi-second-section{
+    width: 100%;
+    min-height: 300px;
+    padding: 100px 0;
+}
 
+.giochi-second-section .first-img{
+    min-height: 200px;
+    padding: 30px;
+}
+.giochi-second-section .second-img{
+    min-height: 200px;
+    padding: 30px ;
+}
 
 
 
