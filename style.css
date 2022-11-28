@@ -73,3 +73,18 @@ header .right > .hidden-parts{
     height: 500px;
     padding: 100px 0;
 }
+
+/*********GIOCHI SECTION***********/
+.giochi-section{
+    width: 100%;
+    min-height: 300px;
+    padding: 100px 0;
+}
+
+.giochi-section .first-img{
+    min-height: 200px;
+}
+.giochi-section .second-img{
+    min-height: 200px;
+    padding: 30px ;
+}
