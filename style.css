@@ -301,18 +301,22 @@ li a{
 }
 
 .psplus-section .main{
-    margin: 50px 0;
+    padding: 27px 0;
 }
 /******SCONTI SECTION******/
 
 .sconti-section{
     width: 100%;
     min-height: 200px;
-    padding: 100px 0;
+    
 }
 .sconti-img{
     
-    height: 200px;
+    margin: 20px 0;
+}
+
+.sconti-section img{
+    max-width: 100%;
 }
 /****psnow-section****/
 
