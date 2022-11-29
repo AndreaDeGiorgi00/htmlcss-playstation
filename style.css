@@ -208,6 +208,40 @@ li a{
 .img-small img{
     max-width: 100%;
 }
+/*secondjumbotron*/
+
+.jumbotron-2{
+    width: 100%;
+    height: 755px;
+    padding-top: 170px;
+    background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size:cover;
+}
+
+.jumbotron-2 .container{
+    height: 500px;
+}
+
+.jumbotron-2 > .container{
+    height: 500px;
+    
+}
+.descrizione img{
+    max-width: 100%;
+}
+.jumbo-title{
+    padding: 20px 0;
+}
+
+.btn-jumbo-2{
+    border-radius: 20px;
+    background-color: #CD3D0F;
+}
+
+
+
 /***second giochi section****/
 
 .giochi-second-section{
