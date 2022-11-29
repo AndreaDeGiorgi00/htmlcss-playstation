@@ -204,6 +204,10 @@ li a{
 .img img{
     max-width: 100%;
 }
+
+.img-small img{
+    max-width: 100%;
+}
 /***second giochi section****/
 
 .giochi-second-section{
