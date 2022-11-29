@@ -271,19 +271,37 @@ li a{
 
 
 /******CONSOLE SECTION******/
-.console-section{
-    padding: 100px 0;
-}
+
 .card{
     border: 0;
+    margin: 20px 0;
     
 }
 
+.card img{
+    max-width: 100%;
+}
+.btn-console{
+    border-radius: 20px;
+}
 /**********PSPLUS SECTION******/
 
-
+.logo-psplus{
+    width: 300px;
+}
 .psplus-section{
-    padding: 100px 0;
+    background-color: #BEBCBB;
+    margin: 50px 0;
+}
+.psplus-section img{
+    max-width: 100%;
+}
+.psplus-section p{
+    margin: 30px 0;
+}
+
+.psplus-section .main{
+    margin: 50px 0;
 }
 /******SCONTI SECTION******/
 
