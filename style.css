@@ -177,9 +177,15 @@ li a{
 /******FIRST CARD SECTION**/
 
 .big-card{
-    padding: 50px 0;
+    margin: 50px 0;
 }
-
+.big-card h1{
+   
+}
+.big-card p{
+    margin: 20px 0;
+    font-size: 20px;
+}
 
 
 .first-cards-section .img{
@@ -190,7 +196,14 @@ li a{
     padding: 50px 30px;
 }
 
-
+.btn-card-section{
+    padding: 5px 30px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+.img img{
+    max-width: 100%;
+}
 /***second giochi section****/
 
 .giochi-second-section{
@@ -279,7 +292,7 @@ ul{
 
 @media screen and (min-width:992px) {
     /*FIRST CARD SECTION*/
-    .first-cards-section img{
+    .img.small img{
         max-width: calc(100%/5);
     }
 }
