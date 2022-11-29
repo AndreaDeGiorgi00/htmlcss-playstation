@@ -8,10 +8,17 @@
 .bg-green{
     background-color:rgb(24, 225, 24);
 }
+.bg-white{
+    background-color:white;
+}
 /********* UTILITIES**********/
 
 .border-d{
     border: 1px dotted black;
+}
+
+a{
+    text-decoration: none;
 }
 
 /***********HEADER***********/
@@ -26,38 +33,78 @@ header{
 }
 
 .logo-section{
-    height: 40px;
+    height: 30px;
     background: black;
 }
 
-header .right{
-    height: 70px;
-}
+
 .header-logo{
     position: absolute;
-    right: 0;
+    right: 30px;
     top: 0;
     height: 40px;
     width: 100px;
+
+}
+.header-logo img{
+    max-height: 100%;
+}
+
+.btn-header{
+    border-radius: 80px;
 }
 /*header main*/
 
 
-.logo{
-    width: 70px;
-    min-height: 70px;
-}
+
 
 header li{
     width: 200px;
 }
 
 header .right > .hidden-parts{
-    width: 200px;
-    height: 70px;
+    
+    height: 100%;
 
 }
+nav{
+    width: 100%;
+}
 
+.right i{
+    font-size: 40px;
+    background-color: white;
+    border: 2px solid black;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+.left li{
+    width: calc(100%/7);
+    list-style: none;
+    text-align: center;
+    color: white;
+}
+li img{
+    height: 15px;
+}
+
+ul{
+    margin: 0 ;
+    padding: 0 10px;
+}
+
+.check{
+    height: 15px;
+}
+
+
+li a{
+    color: black;
+}
+
+.icona-lente img{
+    max-width: 60%;
+}
 /*******FISTR JUMBOTRON**********/
 
 .jumbotron{
