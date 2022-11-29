@@ -11,6 +11,13 @@
 .bg-white{
     background-color:white;
 }
+
+.color-blue{
+    color: #0B78D0;
+}
+.color-grey{
+    color: grey;
+}
 /********* UTILITIES**********/
 
 .border-d{
