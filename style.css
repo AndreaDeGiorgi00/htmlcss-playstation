@@ -109,8 +109,12 @@ li a{
 
 .jumbotron{
     width: 100%;
-    min-height: 500x;
-    padding: 120px 0;
+    height: 755px;
+    padding-top: 170px;
+    background-image: url(img/jumbo-bg.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size:auto;
 }
 
 .jumbotron .container{
@@ -119,7 +123,18 @@ li a{
 
 .jumbotron > .container{
     height: 500px;
-    padding: 100px 0;
+    
+}
+.descrizione img{
+    max-width: 100%;
+}
+.jumbo-title{
+    padding: 20px 0;
+}
+
+.btn-jumbo{
+    border-radius: 20px;
+    background-color: #CD3D0F;
 }
 
 /*********GIOCHI SECTION***********/
