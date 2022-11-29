@@ -179,9 +179,7 @@ li a{
 .big-card{
     margin: 50px 0;
 }
-.big-card h1{
-   
-}
+
 .big-card p{
     margin: 20px 0;
     font-size: 20px;
@@ -247,16 +245,27 @@ li a{
 .giochi-second-section{
     width: 100%;
     min-height: 300px;
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 .giochi-second-section .first-img{
     min-height: 200px;
     padding: 30px;
 }
+.giochi-second-section .first-img img{
+    max-width: 100%;
+    border-radius: 20px;
+}
 .giochi-second-section .second-img{
     min-height: 200px;
     padding: 30px ;
+}
+.giochi-second-section .second-img img{
+    max-width: 100%;
+    border-radius: 20px;
+}
+.giochi-second-section p{
+    margin-top: 10px;
 }
 
 
