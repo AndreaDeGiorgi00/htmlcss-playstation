@@ -141,15 +141,23 @@ li a{
 .giochi-section{
     width: 100%;
     min-height: 300px;
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 .giochi-section .first-img{
-    min-height: 200px;
+    max-height: 200px;
+    
 }
 .giochi-section .second-img{
-    min-height: 200px;
-    padding: 30px ;
+    max-height: 200px;
+    
+    
+}
+.giochi-section img{
+    max-width: 100%;
+    border-radius: 20px;
+    margin: 20px 0;
+    
 }
 
 
