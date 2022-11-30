@@ -59,6 +59,16 @@ header{
 
 .btn-header{
     border-radius: 80px;
+    
+}
+.txt-bottone{
+    padding:  0.375rem 0.75rem;
+
+}
+.btn-header:hover .txt-bottone{
+    border-radius: 80px;
+    border: 1px solid white;
+    
 }
 /*header main*/
 
@@ -153,10 +163,12 @@ li a{
 
 .giochi-section .first-img{
     max-height: 200px;
+    transition: translate 0.5s;
     
 }
 .giochi-section .second-img{
     max-height: 200px;
+    transition: translate 0.5s;
     
     
 }
@@ -167,7 +179,10 @@ li a{
     
 }
 
-
+/*giochi-section hover*/
+.gioco:hover{
+    translate: 0 -20px;
+}
 
 /******TEXT SECTION*******/
 
@@ -251,14 +266,17 @@ li a{
 .giochi-second-section .first-img{
     min-height: 200px;
     padding: 30px;
+    transition: translate 0.5s;
 }
 .giochi-second-section .first-img img{
     max-width: 100%;
     border-radius: 20px;
+    
 }
 .giochi-second-section .second-img{
     min-height: 200px;
     padding: 30px ;
+    transition: translate 0.5s;
 }
 .giochi-second-section .second-img img{
     max-width: 100%;
@@ -368,7 +386,25 @@ ul{
 .immagine{
     width: 100px;
     height: 70px;
-    background-color: red;
+    
+}
+.immagine i{
+    font-size: 70px;
+}
+footer .icona-testo img{
+    max-width: 20px;
+}
+
+footer img{
+    max-width: 100%;
+}
+
+.links{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.icona-testo{
+    margin: 20px 0;
 }
 
 @media screen and (min-width:992px) {
