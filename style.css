@@ -190,7 +190,9 @@ li a{
     padding: 20px 0;
 }
 /******FIRST CARD SECTION**/
-
+.first-cards-section{
+    margin-bottom: 80px;
+}
 .big-card{
     margin: 50px 0;
 }
@@ -216,11 +218,31 @@ li a{
 }
 .img img{
     max-width: 100%;
+    
 }
 
 .img-small img{
     max-width: 100%;
+    position: relative;
+    z-index: -1;
 }
+
+/*hover*/
+.contenitore-blur{
+    
+    opacity: 50%;
+}
+.contenitore-blur:hover{
+    opacity: 100%;
+    
+}
+.contenitore{
+    border-bottom: 5px solid white;
+}
+.contenitore:hover{
+    border-bottom: 5px solid blue;
+}
+
 /*secondjumbotron*/
 
 .jumbotron-2{
@@ -261,6 +283,7 @@ li a{
     width: 100%;
     min-height: 300px;
     padding: 50px 0;
+    background-color: #1F1F1F;
 }
 
 .giochi-second-section .first-img{
@@ -289,7 +312,10 @@ li a{
 
 
 /******CONSOLE SECTION******/
-
+.console-section{
+    padding-top: 50px ;
+    padding-bottom: 50px;
+}
 .card{
     border: 0;
     margin: 20px 0;
