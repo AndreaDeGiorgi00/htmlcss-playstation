@@ -75,9 +75,7 @@ header{
 
 
 
-header li{
-    width: 200px;
-}
+
 
 header .right > .hidden-parts{
     
@@ -96,7 +94,6 @@ nav{
     border-radius: 10px;
 }
 .left li{
-    width: calc(100%/7);
     list-style: none;
     text-align: center;
     color: white;
